@@ -251,7 +251,7 @@ main .wrapper {
 #euclidean-distance .container_inner{
   width: 100%;
   justify-content: center;
-  background-image: url('/euclidean-distance/python-preview.png');
+  background-image: url('euclidean-distance/python-preview.png');
   background-size: cover;
   background-repeat: no-repeat;
   transition: background-image 1s opacity 1s;

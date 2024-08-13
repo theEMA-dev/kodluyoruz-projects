@@ -1,7 +1,4 @@
 @media (prefers-color-scheme: light) {
-  #euclidean-distance .xterm-rows > div > span {
-    filter: invert(1) !important;
-  }
   #euclidean-distance .container_inner{
     filter: invert(0.98);
   }

@@ -1,3 +1,11 @@
+@media (prefers-color-scheme: light) {
+  #euclidean-distance .xterm-rows > div > span {
+    filter: invert(1) !important;
+  }
+  #euclidean-distance .container_inner{
+    filter: invert(0.98);
+  }
+}
 #euclidean-distance .container_inner{
   width: 100%;
   justify-content: center;
@@ -5,6 +13,9 @@
   background-size: cover;
   background-repeat: no-repeat;
   transition: background-image 1s opacity 1s;
+}
+#euclidean-distance button.app_runner {
+  filter: invert(0.98);
 }
 #euclidean-distance py-terminal {
   display: block !important;
